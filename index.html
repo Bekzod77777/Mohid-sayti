@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOHID</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+        <a href="#" id="backtop">
+            <img src="./images/arrow_upward_FILL0_wght400_GRAD0_opsz48 (2).svg" alt="">
+        </a>
+    <header>
+        <nav id="navbar">
+            <div class="container navbar">
+                <div class="navbar-left">
+                    <img src="./images/logo.svg" alt="">
+                </div>
+                <div class="navbar-middle" id="navbar-responsive">
+                    <button id="navbar-close" onclick="closeNavbar()">
+                        <img src="./images/close.svg" alt="close">
+                    </button>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#watch-brand">Brands</a></li>
+                        <li><a href="#product">Recent Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-right">
+                    <button class="shop-person"><img src="./images/shop-person.svg" alt=""></button>
+                    <button id="dark-light">
+                        <img src="images/dark.svg" alt="" />
+                    </button>
+                </div>
+                <button id="navbar-open" onclick="openNavbar()">
+                    <img src="./images/menu.svg" alt="menu" />
+                </button>
+            </div>
+        </nav>
+        <main>
+            <section id="home">
+                <div class="container home">
+                    <div class="home-left">
+                        <div class="content">
+                            <h1>Discover Most Suitable Watches</h1>
+                        </div>
+                        <div class="subtitle">
+                            <p>Find the best, reliable, and cheap smart watches here. We focus on product quality. Here
+                                you can find smart watches of almost all brands. So why you are waiting? Just order now!
+                            </p>
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="Find the best brands">
+                            <img class="search" src="./images/search.svg" alt="">
+                            <button class="btn">Search</button>
+                        </div>
+                    </div>
+                    <div class="home-right">
+                        <img src="./images/soat.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section id="watch-brand">
+                <div class="container brands">
+                    <div class="brand-card">
+                        <div class="brand-card-image">
+                            <img src="./images/apple.png" alt="">
+                        </div>
+                        <div class="brand-card-content">
+                            <h2>Apple</h2>
+                            <p>Apple is one of the most famous smart watches providing company.</p>
+                        </div>
+                    </div>
+                    <div class="brand-card">
+                        <div class="brand-card-image">
+                            <img src="./images/xiomi.png" alt="">
+                        </div>
+                        <div class="brand-card-content">
+                            <h2>Xiaomi</h2>
+                            <p>Xiaomi smart watches are produced by MI company.</p>
+                        </div>
+                    </div>
+                    <div class="brand-card">
+                        <div class="brand-card-image">
+                            <img src="./images/fitbit.png" alt="">
+                        </div>
+                        <div class="brand-card-content">
+                            <h2>FitBit</h2>
+                            <p>FitBit smart watches are best for there health and fitness features.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="product">
+                <div class="container">
+                    <div class="product-content">
+                        <p>Find your favourite smart watch.</p>
+                        <h3>Our Latest Products</h3>
+                    </div>
+                    <div class="products-1">
+                        <div class="product-card">
+                            <img class="watch" src="./images/product1.png" alt="">
+                            <div class="cart-heart">
+                                <span><img src="./images/Add To Cart.svg" alt=""></span>
+                                <span><img src="./images/heart2.svg" alt=""></span>
+                            </div>
+                            <h4>Apple Smart I</h4>
+                            <div class="star">
+                                <img class="star" src="./images/star.svg" alt="">
+                            </div>
+                            <div class="product-subtitle">
+                                <h5><del>$300.00</del></h5>
+                                <p>$255.00</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img class="watch" src="./images/product2.png" alt="">
+                            <h4>Apple Smart II</h4>
+                            <div class="star">
+                                <img class="star" src="./images/star.svg" alt="">
+                            </div>
+                            <div class="product-subtitle">
+                                <h5><del>$300.00</del></h5>
+                                <p>$255.00</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img class="watch" src="./images/product3.png" alt="">
+                            <h4>Apple Smart III</h4>
+                            <div class="star">
+                                <img class="star" src="./images/star.svg" alt="">
+                            </div>
+                            <div class="product-subtitle">
+                                <h5><del>$300.00</del></h5>
+                                <p>$255.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-2">
+                        <div class="product-card">
+                            <img class="watch" src="./images/product4.png" alt="">
+                            <h4>Apple Smart IV</h4>
+                            <div class="star">
+                                <img class="star" src="./images/star.svg" alt="">
+                            </div>
+                            <div class="product-subtitle">
+                                <h5><del>$300.00</del></h5>
+                                <p>$255.00</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img class="watch" src="./images/product5.png" alt="">
+                            <h4>Samsung Watch Pro</h4>
+                            <div class="star">
+                                <img class="star" src="./images/star.svg" alt="">
+                            </div>
+                            <div class="product-subtitle">
+                                <h5><del>$300.00</del></h5>
+                                <p>$255.00</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img class="watch" src="./images/product6.png" alt="">
+                            <h4>Fitbit Max 1</h4>
+                            <div class="star">
+                                <img class="star" src="./images/star.svg" alt="">
+                            </div>
+                            <div class="product-subtitle">
+                                <p>$155.00 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-btn">
+                        <button>View More</button>
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+             <div class="container">
+                <div class="about-content">
+                    <p>Here are our some of the best clients.</p>
+                    <h2>What People Say About Us</h2>
+                </div>
+                <div class="about-cards">
+                    <div class="about-card">
+                        <div class="about-card-image">
+                            <img src="./images/about1.png" alt="">
+                        </div>
+                        <div class="about-card-content">
+                            <h3>Hamza Faizi</h3>
+                            <p>Don’t waste time, just order! This is the best website to puschase smart watches.</p>
+                            <img src="./images/star.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-image">
+                            <img src="./images/about2.png" alt="">
+                        </div>
+                        <div class="about-card-content">
+                            <h3>Hafiz Huzaifa</h3>
+                            <p>I’ve been purchasing smart watches of Mohid for a long time. All the products are good quality.</p>
+                            <img src="./images/star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="about-dots">
+                    <img src="./images/Dots.png" alt="">
+                </div>
+             </div>
+            </section>
+            <section id="contact">
+                <div class="container contact">
+                    <div class="contact-left">
+                        <h2>Subscribe To Newsletter</h2>
+                        <p>Get free guide about smart watches daily. </p>
+                        <input class="contact-input" type="email" placeholder="Enter Email Address" required>
+                        <button>Subscribe</button>
+                    </div>
+                    <div class="contact-right">
+                        <img src="./images/contact.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container footer">
+                <p>Copyright @ 2022 | Mohid</p>
+            </div>
+        </footer>
+    </header>
+    <script src="./appjs/main.js"></script>
+</body>
+
+</html>
